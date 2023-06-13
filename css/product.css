@@ -50,13 +50,41 @@
 }
 
 .product-device-2 {
-  top: -25%;
+  top: 0%;
   right: auto;
   bottom: 0;
   left: 5%;
-  background-color: #ffffff;
+  background-color: #9e6b6b;
+  content: url("../assets/images/jb_sign.jpg");
 }
 
+
+.product-device-3 {
+  top: 0%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #9e6b6b;
+  content: url("../assets/images/orbital.png");
+}
+
+.product-device-4 {
+  top: 0%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #9e6b6b;
+  content: url("../assets/images/celestial.png");
+}
+
+.product-device-5 {
+  top: 0%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #9e6b6b;
+  content: url("../assets/images/square.png");
+}
 
 /*
  * Extra utilities
