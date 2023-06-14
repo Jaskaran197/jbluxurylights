@@ -10,50 +10,50 @@
 	background-color:#070808;
 }
 
+
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(0, 0, 0, 0.582);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
-  color: #999;
+  color: #000000;
   transition: ease-in-out color .15s;
 }
 .site-header a:hover {
-  color: #fff;
+  color: #020202;
   text-decoration: none;
 }
 
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
+ .col-md-5 {
+  float: none;
+  width: 100%;
+}
+
 
 .product-device {
-  position: absolute;
-  right: 10%;
+  position: relative;
+  right: 0%;
   bottom: 0%;
-  width: 500px;
+  width: auto;
   height: 500px;
   
   content: url("../assets/images/hero_img.png");
 }
 
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, .1);
-  border-radius: 5px;
-}
+
 
 .product-device-2 {
   top: 0%;
   right: auto;
   bottom: 0;
   left: 5%;
+
+ 
+
   background-color: #9e6b6b;
   content: url("../assets/images/jb_sign.jpg");
 }
